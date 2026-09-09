@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="my name is  " HorizontalAlignment="Left" Margin="54,53,0,0" VerticalAlignment="Top" FontSize="100"/>
-        <Button Content="submite" HorizontalAlignment="Left" Height="38" Margin="450,256,0,0" VerticalAlignment="Top" Width="117"/>
+        <Label Content="we use Label on week01" HorizontalAlignment="Left" Margin="54,53,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="今天大概知道了 一些基本的知識跟操作 exmple like commit push pull commit message " HorizontalAlignment="Left" Margin="54,89,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
