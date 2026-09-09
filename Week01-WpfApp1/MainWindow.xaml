@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Label Content="my name is  " HorizontalAlignment="Left" Margin="54,53,0,0" VerticalAlignment="Top" FontSize="100"/>
-        <Button Content="submite" HorizontalAlignment="Left" Height="38" Margin="540,227,0,0" VerticalAlignment="Top" Width="117"/>
+        <Button Content="submite" HorizontalAlignment="Left" Height="38" Margin="450,256,0,0" VerticalAlignment="Top" Width="117"/>
 
     </Grid>
 </Window>
