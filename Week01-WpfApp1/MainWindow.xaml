@@ -5,10 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Week01_WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="511" Width="1013" Background="#FF9BDAC2">
     <Grid>
-        <Label Content="we use Label on week01" HorizontalAlignment="Left" Margin="54,53,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <Label Content="今天大概知道了 一些基本的知識跟操作 exmple like commit push pull commit message " HorizontalAlignment="Left" Margin="54,89,0,0" VerticalAlignment="Top"/>
+        <Label Content="we use Label on week01" HorizontalAlignment="Left" Margin="18,16,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#FFF5A229" FontWeight="Bold" FontFamily="Bradley Hand ITC"/>
+        <Label Content="Welcome to the 小貓咪 website " HorizontalAlignment="Left" Margin="12,32,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Book Antiqua" Width="510"/>
+        <TextBox x:Name="name" HorizontalAlignment="Left" Height="26" Margin="169,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182" FontSize="16" TextChanged="name_TextChanged"/>
+        <TextBox x:Name="telephone" HorizontalAlignment="Left" Height="26" Margin="169,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182" FontSize="16" TextChanged="TextBox_TextChanged"/>
+        <Label x:Name="title_name" Content="your cat name : " HorizontalAlignment="Left" Height="28" Margin="48,112,0,0" VerticalAlignment="Top" Width="115" FontSize="16" FontFamily="Adobe Caslon Pro Bold" Background="#FF9FD87A"/>
+        <Label x:Name="title_phone" Content="your telephone : " HorizontalAlignment="Left" Height="27" Margin="39,162,0,0" VerticalAlignment="Top" Width="121" FontSize="16" FontFamily="Adobe Caslon Pro Bold" Background="#FF9FD87A"/>
+        <Button Content="check" HorizontalAlignment="Left" Height="45" Margin="367,146,0,0" VerticalAlignment="Top" Width="96" Background="#FFFFCD83" Click="Button_Click"/>
+        <Label Content="we use Label on week02 too" HorizontalAlignment="Left" Margin="283,73,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#FFF5A229" FontWeight="Bold" FontFamily="Bradley Hand ITC"/>
+        <Button Content="GO" HorizontalAlignment="Left" Height="44" Margin="87,326,0,0" VerticalAlignment="Top" Width="89" RenderTransformOrigin="-4.034,4.858" Click="Button_Click_1" Background="#FFFFCD83"/>
+        <Label x:Name="title_value" Content="input your cat value :" HorizontalAlignment="Left" Height="29" Margin="28,240,0,0" VerticalAlignment="Top" Width="150" Background="#FF9FD87A" FontFamily="Adobe Caslon Pro" FontSize="16"/>
+        <TextBox x:Name="text_value" HorizontalAlignment="Left" Height="38" Margin="58,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"  />
+        <TextBlock x:Name="value_tabel" HorizontalAlignment="Left" Height="220" Margin="225,226,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="743" Background="#FFFFE9C8"/>
+        <Label x:Name="large" Content="Your display area" HorizontalAlignment="Left" Height="98" Margin="578,153,0,0" VerticalAlignment="Top" Width="409" FontFamily="Bodoni MT" FontSize="72" Foreground="#FF04053F"/>
+        <Label x:Name="my_name" Content="5b3g0026 魏子翔" HorizontalAlignment="Left" Height="30" Margin="834,22,0,0" VerticalAlignment="Top" Width="149" FontFamily="DFTanLiXBold-B5" RenderTransformOrigin="0.5,0.5" FontSize="18">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="2.862"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.45"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
 
     </Grid>
 </Window>
